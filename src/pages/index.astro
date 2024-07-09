@@ -1,0 +1,70 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<img src="/intro.jpg">
+			<p>
+				Bienvenidos a tecno uneg nos embarcaremos en un pequeño viaje lleno información básica para aquellos aventureros con ganas de aprender he aqui una pequeña muestra de nuestro contenido por favor disfrute.
+			</p>
+			<p>Lineas de transmicion:</p>
+			<ul>
+				<li>Concepto:</li>
+				<ul>
+				<li>ONDAS ELECTROMAGNÉTICAS TRANSVERSALES </li>
+				<li>TIPOS DE LÍNEAS DE TRANSMISIÓN </li>
+				<li>CIRCUITO EQUIVALENTE DE UNA LÍNEA DE TRANSMISIÓN </li>
+				</ul>
+				<li>PROPAGACIÓN DE ONDAS EN LÍNEA DE TRANSMISIÓN</li>
+				<ul>
+					<li>Factor de velocidad </li>
+					<li>Longitud eléctrica de una línea de transmisión </li>
+					<li>Líneas de retardo </li>
+				</ul>
+				<li>PÉRDIDAS EN LÍNEAS DE TRANSMISIÓN</li>
+				<ul>
+					<li>Pérdidas en el conductor </li>
+					<li>Pérdida por calentamiento del dieléctrico </li>
+					<li>Pérdida por radiación </li>
+					<li>Pérdida por acoplamiento </li>
+					<li>Efecto corona (o efecto de arco voltaico) </li>
+				</ul>
+				<li>ONDAS ESTACIONARIAS, INCIDENTES Y REFLEJADAS</li>
+				<ul>
+					<li>ONDAS INCIDENTES Y REFLEJADAS</li>
+					<li>ONDAS ESTACIONARIAS </li>
+				</ul>
+				<li>IMPEDANCIA DE ENTRADA DE UNA LÍNEA DE TRANSMISIÓN</li>
+				<ul>
+					<li>Análisis fasorial de la impedancia de entrada: línea abierta</li>
+					<li>Análisis fasorial de la impedancia de entrada: línea en cortocircuito </li>
+					<li>Acoplamiento de impedancias en líneas de transmisión </li>
+				</ul>
+				<li>REFLECTOMETRÍA EN EL DOMINIO DEL TIEMPO</li>
+				<li>LÍNEAS DE TRANSMISIÓN DE MICROCINTA Y DE CINTA</li>
+				<ul>
+					<li>Microcinta</li>
+					<li>Línea de cinta </li>
+				</ul>
+			</ul>
+			<p>
+				T
+				<a href="https://astro.build/integrations">Astro Integrations</a> 
+				
+			</p>
+			
+			
+		</main>
+		<Footer />
+	</body>
+</html>
